@@ -14,6 +14,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
         <div>
+            Checking something
             <Route path="/" component={PostsIndex} />
         </div>
     </BrowserRouter>
